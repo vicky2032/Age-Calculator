@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.container{
+    width: 400px;
+    height: 500px;
+    background: floralwhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+input{
+    position: absolute;
+    left: 5%;
+    top:5%;
+    height: 60px;
+    background: whitesmoke;
+}
+.button{
+    position: absolute;
+    right: 5%;
+    top:5%;
+    height: 60px;
+    width: 120px ;
+    
+    background: whitesmoke;
+
+}
